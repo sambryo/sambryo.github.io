@@ -4,6 +4,10 @@ $(window).on("load", function(){
         $(".loader").fadeOut(750);
     });
 });
+$(".filter").click(function() {
+  window.location = $(this).find("a").attr("https://www.github.com/sambryo");
+  return false;
+});
 
 $(document).ready(function(){
      $('#slides').superslides({
